@@ -1,5 +1,5 @@
 # portfolio
-Welcome to my portfolio website repository! This is a showcase of my work, skills, and projects. Feel free to explore the code, learn from it, and provide any feedback you may have.
+Welcome to my portfolio website repository! Feel free to explore the code, and provide any feedback you may have.
 
 ## Table of Contents
 
@@ -25,8 +25,8 @@ This portfolio website is built using HTML, CSS, and JavaScript. It provides an 
 
 To run this portfolio website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
-2. Navigate to the project directory: `cd your-portfolio`
+1. Clone the repository: `git clone https://github.com/rajarshimaity3235/portfolio.git`
+2. Navigate to the project directory: `cd portfolio`
 3. Open the `index.html` file in your preferred web browser.
 
 ## Usage
