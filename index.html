@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- timeline-->
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link id="favicon" rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-png">
+  <title>Portfolio | Rajarshi Maity</title>
+</head>
+<body>
+  <!-- navbar starts -->
+  <header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <a href="#" class="logo"><i class="fas fa-code"></i> My Portfolio</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">Home</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="https://www.linkedin.com/in/rajarshi-maity/overlay/1635519039505/single-media-viewer/?profileId=ACoAAC9OAGAB0cKAK9F4Lw-2VY_ubYf08lK7KFw" class="nav-link">CV</a></li>
+        <li><a href="#footer" class="nav-link">Contact</a></li>
+        
+      </ul>
+      <div class="menu-toggle">
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="toggle-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+    </nav>
+  </header>
+<!-- navbar ends -->
+
+ 
+<!-- About section starts -->
+
+    <section class="about" id="about">
+      <h2 class="heading"><i class="fas fa-user"></i> About</h2>
+      <div class="content">
+        <canvas class="background"></canvas>
+        <div class="left" data-tilt data-tilt-scale="1.1" data-tilt data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.5">
+          <h3>Hi, I'm <span style='color:#A778AEff; font-weight: bold;'> Raj</span></h3>
+          <p style="font-family: Poppins, sans-serif;">As an ambitious and passionate graduate student pursuing an MS in Real Estate, I have a strong foundation in real estate investment analysis, finance, machine learning, and statistics. My passion lies in exploring the intersection between Real Estate and Data Science, and I am constantly seeking new opportunities to expand my knowledge and skills in this field. Apart from this, I am also interested in working in Real Estate Capital Markets, Credit Risk Modeling, and Prepayment Risk Modeling. In addition to my technical expertise, I possess excellent communication and interpersonal skills, allowing me to collaborate effectively with colleagues and clients alike. Whether working independently or as part of a team, I am committed to delivering high-quality results and exceeding expectations.</p>
+          <br>
+          <p>Let's work together and create something amazing!</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/rajarshi-maity/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/rajarshimaity3235" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:rajarshimaity3235@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+          <div class="right" data-tilt data-tilt-scale="1.1">
+            <img src="project_img\IMG_20230119_195926_442 (1)-modified.png" alt="Profile Picture">
+          </div>
+      </div>
+      
+  </section>      
+    <script>
+      window.onload = function() {
+        Particles.init({
+          selector: '.background',
+          maxParticles: 150,  // Adjust the number of particles as needed
+          color: '#ffffff',  // Adjust the color of the particles
+          connectParticles: true,
+                  });
+      };
+    </script>
+<!-- About section ends -->
+
+
+
+
+
+    <!-- projects section starts -->
+    <section class="projects" id="projects" style="background-color: rgb(12, 10, 17) !important;">
+      <h2 class="heading-large-project"> Projects. </h2>
+      <p class="heading-small-project" style="color:rgba(252, 225, 255, 0.789)">These are some of the recent projects I have been working on. If you want to view my previous projects please visit my LinkedIn account.</p>
+
+      <div class="content">
+      <div class="card" data-tilt data-tilt-scale="1.1" data-tilt data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.2" >
+        <a href="https://github.com/rajarshimaity3235/Analyze-REITs">
+          <i class="fab fa-github fa-3x" style="position: absolute; bottom: 10px; right: 10px; color: black;"></i>
+        </a>
+          <img src="project_img\reitsapp.png" alt="REITs">
+          <h3 style="font-size: 20px; font-family: Poppins,sans-serif;color:rgb(187, 148, 223)">REIT Web-app</h3>
+          <p style="font-size: 15px;font-family: Poppins,sans-serif;">Incorporated web development skills to create a REIT analysis web application, showcasing stock price visualization, portfolio diversification, and financial statement insights....<a href="https://rajarshimaity3235-analyze-reits-test1-1glab6.streamlit.app/">Try it</a></p>
+          <p>
+            <span style="color: rgb(255, 0, 0);"> #REIT</span>
+            <span style="color: rgb(0, 255, 0);">  #Finance</span>
+            <span style="color: blue;">  #Python</span>
+          </p>
+        </div>
+      <div class="card" class="card" data-tilt data-tilt-scale="1.1" data-tilt data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.2">
+          <img src="project_img\Onondaga report.png" alt="Project 2">
+          <h3 style="font-size: 20px; font-family: Poppins,sans-serif;color:rgb(187, 148, 223)">Real Estate Market Report for Onondaga County, NY</h3>
+          <p style="font-size: 15px;font-family: Poppins,sans-serif;">With Micron Technology's $100B Megafab plant announcement in Clay, NY, expect significant real estate market growth. This report analyzes Onondaga County's residential and commercial real estate potential...<a href="https://www.dropbox.com/s/g8ttpaebgkt8n35/Micron%20is%20Coming%20to%20Town_May12th%202023_Final.pdf?dl=0">Read more</a></p>
+          <p>
+            <span style="color: rgb(255, 0, 0);"> #Real Estate</span>
+            <span style="color: rgb(0, 255, 0);">  #Economics</span>
+            <span style="color: blue;">  </span>
+          </p>
+        </div>
+      <div class="card" class="card" data-tilt data-tilt-scale="1.1" data-tilt data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.2">
+          <img src="project_img\financial-inclusion .png" alt="Project 3">
+          <h3 style="font-size: 20px; font-family: Poppins,sans-serif;color:rgb(187, 148, 223)">Financial Inclusion</h3>
+          <p style="font-size: 15px;font-family: Poppins,sans-serif;"> Presently engaged in the ongoing research that delves into the investigation Financial Inclusion across the United States. Studying the effect of COVID-19-induced bank closures on banking accessibility and its correlation with financial inclusion.</p>
+          <p>
+            <span style="color: rgb(255, 0, 0);"> #Machine Learning</span>
+            <span style="color: rgb(0, 255, 0);">  #Economics</span>
+            <span style="color: blue;"> #Python  </span>
+          </p>
+        </div>
+        
+        <div class="card" class="card" data-tilt data-tilt-scale="1.1" data-tilt data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.2">
+          <img src="project_img\NY.png" alt="Project 4">
+          <h3 style="font-size: 20px; font-family: Poppins,sans-serif;color:rgb(187, 148, 223)">Cross-sectional Banking Determinants across U.S.</h3>
+          <p style="font-size: 15px;font-family: Poppins,sans-serif;"> Used K-Means Clustering Algorithm to cluster statistically significant variables used to determine banking accessibility and visualized the variable clusters.</p> 
+            <p>
+            <span style="color: rgb(255, 0, 0);"> #Machine Learning</span>
+            <span style="color: rgb(0, 255, 0);">  #Economics</span>
+            <span style="color: blue;"> #Python  </span>
+            <span style="color: rgb(242, 255, 0);"> #SAS  </span>
+          </p>
+        </div>
+
+        <div class="card" class="card" data-tilt data-tilt-scale="1.1" data-tilt data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.2">
+          <img src="project_img\effrontier.png" alt="Project 4">
+          <h3 style="font-size: 20px; font-family: Poppins,sans-serif;color:rgb(187, 148, 223)">Portfolio Optimization Web-app</h3>
+          <p style="font-size: 15px;font-family: Poppins,sans-serif;"> Developing a Python-based web application for portfolio optimization, leveraging advanced algorithms and data analysis techniques to maximize investment returns and minimize risk. Implementing modern portfolio theory with efficient frontier visualization to assist users in making informed investment decisions.</p>
+          <p>
+            <span style="color: rgb(255, 0, 0);"> #Python</span>
+            <span style="color: rgb(0, 255, 0);">  #Portfolio Optimization</span>
+            <span style="color: blue;"> #Finance  </span>
+          </p>
+        </div>
+
+        <div class="card" class="card" data-tilt data-tilt-scale="1.1" data-tilt data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.2">
+          <img src="project_img\deepsoil.png" alt="Project 4">
+          <h3 style="font-size: 20px; font-family: Poppins,sans-serif;color:rgb(187, 148, 223)">Liquefaction Assessment</h3>
+          <p style="font-size: 15px;font-family: Poppins,sans-serif;" > B.Tech Thesis: Conducted comprehensive research on soil liquefaction susceptibility and applied deterministic/stochastic methods to assess liquefaction potential for critical infrastructure project of Howrah metro station, identifying susceptible soil layers using simulated earthquakes..<a href="https://docs.google.com/document/d/1hLEio7Zlbh-KFR2lQwQdTPOcUWWtCbIrumwtQ6yrxrU/edit?usp=sharing">Read more</a></p>
+          <p>
+            <span style="color: rgb(255, 0, 0);"> #Engineering</span>
+            <span style="color: rgb(0, 255, 0);">  #Matlab</span>
+            <span style="color: blue;"> #Simulation  </span>
+          </p>
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+
+
+<!-- timeline starts -->
+
+  <section class="cd-timeline js-cd-timeline" id="experience" style="background-color: rgb(12, 10, 17) !important;">
+    <p style="color: rgb(159, 134, 164); text-align: center; font-size: 20px; font-weight: normal; font-family: Verdana; margin-bottom: 20px;margin-top: 150px;">My journey so far</p>
+    <h1 style="color: white; text-align: center; font-size: 60px; font-weight: bold; font-family: Arial; margin-bottom: 80px;">Work Experience.</h1>
+    <div class="container max-width-lg cd-timeline__container">
+
+
+      <div class="cd-timeline__block" style=" margin-left: -100px; width:1000px">
+        <div class="cd-timeline__img cd-timeline__img--picture" style="margin-left: 20px; background-color: rgb(213, 213, 213);">
+          <i class="fas fa-briefcase fa-3x" style="color: black;"></i>
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component" style="background-color: rgb(22, 18, 32)">
+          <h2 style="font-size: 20px; font-family: Poppins,sans-serif; font-weight:bold;color:rgb(255, 255, 255);"> Kolkata Port Trust</h2>
+          <p style="font-size: 15px;font-style: italic;"> Graduate Engineering Trainee</p>
+          <p style="font-size: 15px; color:rgb(255, 255, 255); font-family: Poppins,sans-serif;">Gained hands-on experience in various engineering disciplines while actively contributing to port operations and projects. Applied my skills in areas such as construction project management, and structural analysis. </p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date" style="margin-left: 10px; font-size: 20px; font-family: Verdana; color: rgb(247, 209, 255);">Dec 2019 - Jan 2020</span>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block" style="margin-left: -100px; width:1000px">
+        <div class="cd-timeline__img cd-timeline__img--movie" style="margin-left: 20px;background-color: rgb(213, 213, 213);">
+          <i class="fas fa-flask fa-3x" style="color: black;"></i>
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component" style="background-color: rgb(22, 18, 32)">
+          <h2 style="font-size: 20px; font-family: Poppins,sans-serif;font-weight:bold; color:rgb(255, 255, 255);"> Indian Institutue of Technology, Hyderabad</h2>
+          <p style="font-size: 15px;font-style: italic;"> Research Intern</p>
+          <p style="font-size: 15px; color:rgb(255, 255, 255); font-family: Poppins,sans-serif;">• Developed and compared estimation models for predicting spectral acceleration of ground motion using Machine Learning (ML).</p>
+          <p style="font-size: 15px; color:rgb(255, 255, 255);font-family: Poppins,sans-serif;">•  Conducted extensive research and analysis on contemporary GMPEs and successfully calibrated an ML model using Histogram 
+            Gradient Boosting approach to predict spectral acceleration with significantly higher accuracy than any other method. </p>
+          
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date" style="margin-left: 20px; font-size: 20px; font-family: Verdana; color: rgb(247, 209, 255);">Apr 2021 - Dec 2021</span>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+
+
+      <div class="cd-timeline__block" style="margin-left: -100px; width:1000px">
+        <div class="cd-timeline__img cd-timeline__img--picture" style="margin-left: 20px; background-color: rgb(213, 213, 213);">
+          <i class="fas fa-briefcase fa-3x" style="color: black;"></i>
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component" style="background-color: rgb(22, 18, 32)">
+          <h2 style="font-size: 20px; font-family: Poppins,sans-serif; font-weight:bold; color:rgb(255, 255, 255);"> Zicklin School of Business, New York</h2>
+          <p style="font-size: 15px;font-style: italic;"> Graduate Assistant</p>
+          <p style="font-size: 15px; color:rgb(255, 255, 255);font-family: Poppins,sans-serif;">• Collaborated with professors on various research projects by leveraging my knowledge on machine learning and python. </p>
+          <p style="font-size: 15px; color:rgb(255, 255, 255);font-family: Poppins,sans-serif;">• Organized and executed successful seminars, workshops and networking events for the Real Estate department. 
+          </p>
+          
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date" style="margin-left: 10px; font-size: 20px; font-family: Verdana; color: rgb(247, 209, 255);">Feb 2023 - Apr 2023</span>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+
+
+
+      <div class="cd-timeline__block" style="margin-left: -100px; width:1000px">
+        <div class="cd-timeline__img cd-timeline__img--movie" style="margin-left: 20px;background-color: rgb(213, 213, 213);">
+          <i class="fas fa-flask fa-3x" style="color: black;"></i>
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component" style="background-color: rgb(22, 18, 32)">
+          <h2 style="font-size: 20px; font-family: Poppins,sans-serif;font-weight:bold;color:rgb(255, 255, 255);"> Zicklin School of Business, New York</h2>
+          <p style="font-size: 15px;font-style: italic; font-family: Poppins,sans-serif;"> Research Assistant</p>
+          <p style="font-size: 15px; color:rgb(255, 255, 255); font-family: Poppins,sans-serif;">Conducted comprehensive research on the Onondaga County real estate market in relation to the $100B Micron Technology 
+            “Megafab” plant announcement, identifying key growth areas and investment opportunities.</p>
+
+                    <div class="flex justify-between items-center">
+            <span class="cd-timeline__date" style="margin-left: 20px; font-size: 20px; font-family: Verdana; color: rgb(247, 209, 255);">Apr 2023 - Jun 2023</span>
+              </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+
+
+    </div>
+  </section> <!-- cd-timeline -->
+  <script src="assets/js/main.js"></script>
+
+<!-- experience section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- skills -->
+    <section class="skills" id="skills">
+      <h2 class="heading-large-project">Skills.</h2>
+      <div class="button-container">
+        <button id="overall-button">Overall</button>
+        <button id="tech-stack-button">Tech Stack</button>
+      </div>
+      <div class="content" id="skills-content">
+        <!-- Overall skills content -->
+        <div id="overall-skills">
+          <div class="row">
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+              <i class="fas fa-home" style="color: white;"></i>
+              <h3>Real Estate</h3>
+              <p>Real Estate Finance, Capital Markets, Real Estate Financial Modeling, ARGUS</p>
+            </div>
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+              <i class="fas fa-robot" style="color: white;"></i>
+              <h3>AI/ML</h3>
+              <p>Machine learning, Deep Learning, Time Series Forecasting, Computer Vision</p>
+            </div>
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+              <i class="fas fa-chart-line" style="color: white;"></i>
+              <h3>Credit Risk Modeling</h3>
+              <p>PD, LGD, EAD Modeling</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+              <i class="fas fa-chart-area" style="color: white;"></i>
+              <h3>Prepayment Risk Modeling</h3>
+              <p>MBS, Monte Carlo Simulation</p>
+            </div>
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+              <i class="fas fa-briefcase" style="color: white;"></i>
+              <h3>Corporate Finance</h3>
+              <p>Financial statement analysis, Valuation, Asset Management</p>
+            </div>
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+              <i class="fas fa-database" style="color: white;"></i>
+              <h3>DBMS</h3>
+              <p>MySQL, Data Modeling</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+              <i class="fas fa-laptop-code" style="color: white;"></i>
+              <h3>Front-end Development</h3>
+              <p>HTML, CSS, JavaScript, React</p>
+            </div>
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+              <i class="fas fa-hard-hat" style="color: white;"></i>
+              <h3>Civil Engineering</h3>
+              <p>STAAD, AutoCAD, CPM, Deepsoil</p>
+            </div>
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+              <i class="fas fa-chart-bar" style="color: white;"></i>
+              <h3>Analytics</h3>
+              <p>Advanced Excel, Python, PowerBI, Argus</p>
+            </div>
+            <!-- Add more overall skills cards here -->
+          </div>
+        </div>
+
+        <!-- Tech stack skills content -->
+        <div id="tech-stack-skills" style="display: none;">
+          <div class="row">
+            <div class="card-icon" >
+              <img src="software_icons\icons8-python-96.png" alt="JavaScript Icon" class="icon">
+              <h3>Python</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-r-64.png" alt="HTML Icon" class="icon">
+              <h3>R Studio</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-jupyter-96.png" alt="CSS Icon" class="icon">
+              <h3>Jupyter Lab</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-pandas-96.png" alt="React Icon" class="icon">
+              <h3>Pandas</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\streamlit.jpg" alt="Streamlit Icon" class="icon">
+              <h3>Streamlit</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-matlab-96.png" alt="Python Icon" class="icon">
+              <h3>Matlab</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-tensorflow-96.png" alt="TensorFlow Icon" class="icon">
+              <h3>TensorFlow</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\Created_with_Matplotlib-logo.svg.png" alt="OpenCV Icon" class="icon">
+              <h3>Matplotlib</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-html5-96.png" alt="Matlab Icon" class="icon">
+              <h3>HTML</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-css-96.png" alt="Pandas Icon" class="icon">
+              <h3>CSS</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-js-96.png" alt="Matplotlib Icon" class="icon">
+              <h3>Javascript</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-mysql-96.png" alt="Seaborn Icon" class="icon">
+              <h3>MySQL</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-autocad-96.png" alt="Plotly Icon" class="icon">
+              <h3>AutoCAD</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-staad-96.png" alt="Plotly Icon" class="icon">
+              <h3>STAAD</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\icons8-excel-96.png" alt="Plotly Icon" class="icon">
+              <h3>Advanced MS Excel</h3>
+            </div>
+            <div class="card-icon">
+              <img src="software_icons\arguuus.png" alt="Plotly Icon" class="icon">
+              <h3>Argus</h3>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </section>
+
+
+    <script>
+      // JavaScript code to handle button clicks and show/hide the corresponding data
+
+      // Overall button
+      document.getElementById("overall-button").addEventListener("click", function() {
+        // Hide tech stack skills
+        document.getElementById("tech-stack-skills").style.display = "none";
+
+        // Show overall skills
+        document.getElementById("overall-skills").style.display = "block";
+      });
+
+      // Tech Stack button
+      document.getElementById("tech-stack-button").addEventListener("click", function() {
+        // Hide overall skills
+        document.getElementById("overall-skills").style.display = "none";
+
+        // Show tech stack skills
+        document.getElementById("tech-stack-skills").style.display = "block";
+      });
+    </script>
+
+
+
+
+  
+  <!-- Skills section ends -->
+
+
+
+
+
+  
+
+  <!-- Education section starts -->
+  <section class="education" id="education" >
+    <h2 class="education-h2"> Education.</h2>
+    <div class="content">
+      <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+        <h3>Bachelor of Technology (Hons.) - Civil Engineering</h3>
+        <p>Indian Institute of Engineering Science and Technology </p>
+        <p style="font-size: 12px;">Kolkata, India</p>
+        <p style="text-align: right ;">2018 - 2022</p>
+        <p style="text-align: right ;">GPA - 3.8</p>
+        <br>
+        <p style="color: white !important;">Relevant coursework: Economics, Accounting and Financial Management, Mathematics, Management and Industrial Sociology, 
+          Estimation, Valuation and Project Management, Database Management Techniques, Soft Computing</p>
+      </div>
+      <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+        <h3>Master of Science - Real Estate (STEM)</h3>
+        <p>Zicklin School of Business, Baruch College, City University of New York</p>
+        <p style="font-size: 12px;">New York City, USA</p>
+        <p style="text-align: right ;">2022 - 2024</p>
+        <p style="text-align: right ;">GPA - 4.0</p>
+        <br>
+        <p style="color: white !important;"> Coursework: Corporate Finance, Real Estate Finance, Real Estate Capital Markets, Real Estate Law, Real Estate Development, 
+          Analytics for Real Estate Investment </p>
+      </div>
+      
+    </div>
+  </section>
+  <!-- Education section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+<!-- footer section starts -->
+<section class="footer" id="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Raj's Portfolio</h3>
+          <p>Thanks for vising my website. Let's connect and have a chat. <br> If you liked this template you can fork it from my github repository. </p>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+1 206-396-6689</p>
+          <p> <i class="fas fa-envelope"></i>rajarshimaity3235@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Jersey City, USA</p>
+          <div class="share">
+
+            <a href="https://www.linkedin.com/in/rajarshi-maity/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/rajarshimaity3235" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:rajarshimaity3235@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          </div>
+      </div>
+  </div>
+  <hr class="footer-line"> <!-- Add a horizontal line -->
+  <p class="copyright" style="color: grey; text-align: center;">
+    &copy; 2023 Rajarshi Maity. All rights reserved. <!-- Add the copyright text -->
+  </p>
+  <br>
+
+  </section>
+
+
+  <!-- JavaScript code -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-+rb0qkTl5ldf4UN0cp8tJMbLmKArWOrtEw4fCVF32TfOxQjby5D3b8sjIwfmv6dRvj0seVt7m8R4CqzvpPYJQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js" integrity="sha512-vJ9B66xRQRB2lK/z5ljvEgzdUcfqrwHHVW6ef2/r2CE4aDqCuW+Xlxe+2H43J5xLfHqIeEZ1+gC6qKn2W0dd3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+</body>
+
+
+</html>

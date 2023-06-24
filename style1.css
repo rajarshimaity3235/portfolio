@@ -1,0 +1,671 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+/* CSS HEX 
+--ultra-violet: #686AA3ff;
+--african-violet: #AD81B4ff;
+--cerulean: #096A90ff;
+--palatinate: #642760ff;
+--black: #050908ff;
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    transition: all .2s linear;
+    
+  }
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  body{
+    background: #0c0a11 !important;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+  
+  *::selection{
+    background: #2b3dda;
+    color: #fff;
+  }
+  
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  html::-webkit-scrollbar{
+    width: .8rem;
+  }
+  html::-webkit-scrollbar-track{
+    background: rgb(37, 37, 37);
+  }
+  html::-webkit-scrollbar-thumb{
+    background: #757575;
+  }
+
+
+
+/* Navbar Starts */
+
+header .navbar{
+    background-color: black;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: rgb(242, 0, 255);
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  .toggle-button span {
+    display: block;
+    background-color: #fff;
+    height: 3px;
+    width: 100%;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+
+
+
+  /* About section 
+.about {
+  background-image: url('pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}*/
+.background {
+  
+  position:absolute;
+    
+  display:
+   block;
+    
+  top
+  : 0;
+    
+  left
+  : 0;
+    
+  z-index
+  : 0;
+  }
+
+  .about .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+.about .left {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  border-radius: 30px;
+  padding: 25px;
+  margin-top: 150px; /* Adjust the gap between navbar and card */
+  margin-bottom: 100px;
+  max-width: 70%;
+  margin-left: 100px; /* Adjust the left margin */
+  text-align: left;
+  backdrop-filter: blur(30px); /* Add a blur effect to the card */
+  width: 750px;
+  color:#f7f7f7;
+  font-family: Poppins, sans-serif !important;
+  flex:1;
+}
+
+.about .right {
+  border-radius: 30px;
+  padding: 25px;
+  margin-top: 150px; /* Adjust the gap between navbar and card */
+  margin-bottom: 100px;
+  max-width: 70%;
+  margin-left: 100px; /* Adjust the left margin */
+  text-align: center;
+  backdrop-filter: blur(0px); /* Add a blur effect to the card */
+  width: 750px;
+  color:#f7f7f7;
+  font-family: Poppins, sans-serif !important;
+  flex:1;
+}
+
+.about .right img {
+  max-width: 70%;
+  height: auto; /* Adjust the image height to maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.about .left h3 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.about .left p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about .left .social-links {
+  margin-top: 20px;
+}
+
+.about .left .social-links a {
+  color: #fcd0ff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.about .left .social-links a:last-child {
+  margin-right: 0;
+}
+
+
+
+
+/* hamburger icon starts*/
+#menu{
+  font-size: 3rem;
+  cursor: pointer;
+  color: rgb(24, 2, 63);
+  display: none;
+}
+@media(max-width:500px){
+  #menu{
+      display: block;
+  }
+  header .navbar{
+    position: fixed;
+    top: 6.5rem; right: -120%;
+    width: 75%;
+    height: 100%;
+    text-align: left;
+    align-items: flex-start;
+    background-color: #0e0f31;
+    backdrop-filter: blur(20px);
+  }
+  header .navbar ul{
+    flex-flow: column;
+    padding: 1rem;
+  }
+  header .navbar ul li{
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    width: 26rem;
+  }
+  header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    color: #fff;
+    font-size: 2rem;
+  }
+  header .navbar ul li a.active,
+  header .navbar ul li a:hover{
+    padding: 1rem;
+    color: #fff;
+    border-radius: .5rem;
+    border-bottom: .5rem solid #011aff;
+  }
+  .fa-times{
+    transform: rotate(180deg);
+  }
+  header .navbar.nav-toggle{
+    right: 0;
+  }
+}
+/* hamburger icon ends */
+
+
+
+/* footer section starts */
+.footer{
+  min-height: auto;
+  padding-top: 0;
+  background: rgb(0, 1, 43);
+}
+.footer .box-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer .box-container .box{
+  flex: 1 1 25rem;
+  margin: 2rem;
+}
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  color: #fff;
+  padding-bottom: 1rem;
+  font-weight: normal;
+}
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  color: #ccc;
+  padding: .7rem 0;
+  text-transform: none;
+}
+.footer .box-container .box p i{
+  padding-right: 1rem;
+  color: #ff9cfd;
+}
+.footer .box-container .box a{
+  font-size: 1.5rem;
+  color: rgb(238, 238, 238);
+  padding: .3rem 0;
+  display: block;
+}
+.footer .box-container .box a:hover{
+  color: #faadff;
+}
+.footer .box-container .box .share{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.footer .box-container .box .share a{
+  height: 4rem;
+  width: 4rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5rem;
+  font-size: 1.7rem;
+  margin-right: 1rem;
+  transition: .2s;
+  background: rgb(230, 230, 230);
+  color: #02094b;
+  border: none;
+}
+.footer .box-container .box .share a:hover{
+  background: transparent;
+  transform: scale(0.98);
+  border: .1rem solid rgb(180, 178, 178);
+  color: #feb3ff;
+}
+.footer-line {
+  border-top: 1px solid #ffffff;
+  margin: 15px 0;
+}
+/* common media queries ends*/
+
+
+/* scroll top starts */
+#scroll-top{
+  position: fixed;
+  top: -140%;
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  background: #ffae00;
+  color: rgb(13, 0, 44);
+  border-radius: 5rem;
+  transition: 1s linear;
+  z-index: 1000;
+}
+#scroll-top.active{
+  top: calc(100% - 12rem);
+}
+/* scroll top ends */
+
+
+
+
+  /* CSS styles for the Skills section */
+  .skills {
+    padding: 50px 0;
+    margin-bottom: 0px !important;
+  }
+
+  .skills .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .skills .content .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .skills .content .card {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: rgb(22, 18, 32) !important;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 20px; /* Add a 10px right margin for the gap */
+    transform-style: preserve-3d;
+    transform: perspective(1000px); 
+  }
+
+
+
+  .skills .content .card-icon {
+    flex: 0 0 calc(15% - 20px); /* Adjust the width to create four columns */
+    background-color: rgb(12, 10, 17) !important;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px !important;
+  }
+
+  /* CSS styles for the icons */
+  .card-icon .icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+  .skills .content .card i {
+    font-size: 50px;
+    margin-bottom: 20px;
+    transform: translateZ(10px);
+  }
+
+  .skills .content .card h3 {
+    font-size: 20px !important;
+    margin-bottom: 10px;
+    color: #f9b3ff;
+    font-family: Poppins, sans-serif;
+    transform: translateZ(10px);
+  }
+
+  .skills .content .card-icon h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+  }
+
+
+
+  .skills .content .card p {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+  }
+
+  /* Styles for the buttons */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+  .button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1c2aa6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px;
+  }
+
+  .button-container button:hover {
+    background-color: #0C134F;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Additional styles for the Education section */
+  .education {
+    padding: 80px 0;
+    background-color: rgb(12, 10, 17) !important;
+    margin-bottom: 30px;
+  }
+  
+.education .education-h2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    font-size: 60px; color: rgb(255, 255, 255); 
+    font-family: Poppins,sans-serif;
+    font-weight: bold;
+  }
+
+
+
+
+  .education .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .education .content .card {
+    flex: 1 1 calc(33% - 20px);
+    background-color: rgb(22, 18, 32);
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+  }
+  
+  .education .content .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(235, 163, 234);
+  }
+  
+  .education .content .card p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color:rgba(255, 255, 255, 0.825);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Additional styles for the Projects section */
+  /* style.css */
+/* ... (your existing styles) */
+
+
+.heading-small-project{
+  margin-left: 100px;
+  font-size: 18px; color: rgb(247, 209, 255); 
+  font-family: Poppins,sans-serif;
+  width: 50%;
+  margin-bottom: 50px;
+
+}
+
+.heading-large-project{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  font-size: 60px; color: rgb(255, 255, 255); 
+  font-family: Poppins,sans-serif;
+  font-weight: bold;
+}
+
+.projects .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .projects .card {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background: #0C134F;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: white;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: glowing 5s infinite;
+  }
+  
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(141, 114, 184, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  
+  .projects .card img {
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .projects .card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .projects .card p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+
+  
+  
