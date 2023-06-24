@@ -8,7 +8,6 @@ Welcome to my portfolio website repository! Feel free to explore the code, and p
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
