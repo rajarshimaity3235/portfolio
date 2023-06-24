@@ -39,7 +39,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use it as a template for your own portfolio website.
+Feel free to use it as a template for your own portfolio website.
 
 ## Contact
 
